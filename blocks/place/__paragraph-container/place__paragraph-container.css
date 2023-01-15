@@ -1,0 +1,14 @@
+.place__paragraph-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+} 
