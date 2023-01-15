@@ -17,14 +17,14 @@
 
 @media screen and (max-width: 768px) {
   .cover {
+    margin: 90px auto 0 auto;
     max-width: 768px;
-    min-height: 62.5vw;
   }
 } 
 
 @media screen and (max-width: 320px) {
   .cover {
+    margin: 66px auto 0 auto;
     max-width: 320px;
-    min-height: 62.5vw;
   }
 } 
