@@ -1,7 +1,7 @@
 .cover__overlay-link {
   position: relative;
   width: 100%;
-  min-height: 57.8vw;
+  min-height: min(57.8vw, 740px);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
