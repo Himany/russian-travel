@@ -1,8 +1,7 @@
 .footer {
   padding: 92px 48px 24px 48px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -16,7 +15,6 @@
   .footer {
     padding: 64px 16px 24px 16px;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: normal;
     align-items: flex-start;
   }

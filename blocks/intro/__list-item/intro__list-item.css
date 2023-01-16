@@ -1,6 +1,6 @@
 .intro__list-item {
   margin: 0;
-  max-width: 720px;
+  max-width: min(100%, 720px);
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .intro__tintro__list-itemext {
+  .intro__list-item {
     max-width: 288px;
   }
 } 

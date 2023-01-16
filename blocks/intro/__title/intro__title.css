@@ -1,6 +1,6 @@
 .intro__title {
   margin: 0;
-  max-width: 720px;
+  max-width: min(100%, 720px);
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
